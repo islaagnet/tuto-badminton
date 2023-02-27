@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #141414;
+    padding: 0; 
+    margin: 0;
+    color: #fff;
+}
+body .page{
+    margin: 20px 80px;
+}
+/*Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #141414;
+    padding: 10px 0px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+}
+nav .onglets a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+/*Fin de la barre de navigation */
+
+/* Partie header */
+header{
+    margin-top: 40px;
+    background:url("pros_viktoraxelsen.jpg");
+    border-radius: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 500px;
+}
+header h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+}
+/* Fin de la partie header*/
+
+/* pied de page */
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 100px;
+    color: #828282 
+}
+
+/* fin de pied de page */
+
+@media screen and (max-width: 640px) {
+    body .page{
+        margin: 10px;
+    }
+    nav .onglets{
+        display: none;
+    }
+    header{
+        margin-top: 20px;
+        background-size: 250px 250px;
+    }
+    header h1{
+        font-size: 30px;
+        padding: 100px;
+    }
+}
+button {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    background-color: #1a1a1a;
+    padding: 20px;
+    width: 250px;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s; /* add this line, firefox */
+    -o-transition: all 0.5s; /* add this line, opera */
+    transition: all 0.5s; /* add this line */
+  }
+  button:hover {
+    background-color: rgb(23, 23, 83);
+  }
+  
+
+
+
+  
+  
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
